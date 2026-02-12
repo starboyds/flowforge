@@ -1,0 +1,19 @@
+{
+  "name": "flowforge",
+  "version": "1.0.0",
+  "description": "FlowForge Portfolio Project",
+  "main": "index.js",
+  "scripts": {
+  "dev": "turbo run dev",
+  "build": "turbo run build",
+  "test": "turbo run test",
+  "lint": "turbo run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "turbo": "^2.8.3"
+  }
+}
