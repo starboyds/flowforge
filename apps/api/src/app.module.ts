@@ -3,7 +3,7 @@ import { ConfigModule } from '@nestjs/config';
 import configuration from './config/configuration';
 import { validate } from './config/env.validation';
 import { UserModule } from './user/user.module';
-import { PrismaModule } from './prisma/prisma.module';
+import { PrismaModule } from './infrastructure/prisma/prisma.module';
 
 @Module({
   imports: [
